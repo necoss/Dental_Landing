@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1175px;
+    padding: auto;
+    margin: auto;
+}
+
+/* Нав */
+.navigation{
+    padding-top: 34px;
+}
+.navigation nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navigation li a{
+    text-decoration: none;
+}
+.nav-logo-img{
+    margin-right: 250px;
+}
+.nav-text a, .nav-text_last a{
+    font-family: 'Poppins';
+    color: #031126;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.nav-text a:hover, .nav-text_last a:hover{
+    color: #49B3FB;
+}
+.nav-text{
+    margin-right: 50px;
+}
+.nav-text_last{
+    margin-right: 80px;
+}
+.nav-login-button a{
+    font-family: 'Poppins';
+    color: #49B3FB;
+    font-weight: 500;
+    font-size: 17px;
+    border: 1px solid #49B3FB;
+    padding: 17px 35px;
+    border-radius: 15px;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+.nav-login-button a:hover{
+    color: white;
+    background-color: #49B3FB;
+}
+.nav-signup-button a{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #49B3FB;
+    border: 1px solid #49B3FB;
+    padding: 17px 35px;
+    border-radius: 15px;
+    box-shadow: 0px 100px 80px rgba(73, 179, 251, 0.07), 0px 41.7776px 33.4221px rgba(73, 179, 251, 0.0503198), 0px 22.3363px 17.869px rgba(73, 179, 251, 0.0417275), 0px 12.5216px 10.0172px rgba(73, 179, 251, 0.035), 0px 6.6501px 5.32008px rgba(73, 179, 251, 0.0282725), 0px 2.76726px 2.21381px rgba(73, 179, 251, 0.0196802);
+    transition: 0.3s;
+}
+.nav-signup-button a:hover{
+    color: #49B3FB;
+    background-color: white;
+}
+
+/* то, что после нава (будем называть это слоганом) */
+.slogan-info{
+    padding-top: 266px;
+}
+.slogan-text h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #031126;
+}
+.slogan-text p{
+    font-family: 'Poppins';
+    color: #031126;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 40px;
+    line-height: 170%;
+}
+.slogan-info_media{
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+}
+.slogan-info_media a:first-child{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Poppins';
+    color: white;
+    padding: 19px 41px;
+    margin-right: 30px;
+    background-color: #49B3FB;
+    border: 1px solid #49B3FB;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.slogan-info_media a:first-child:hover{
+    color: #49B3FB;
+    background-color: white;
+}
+.slogan-info_media a:last-child{
+    text-decoration: none;
+    color: #031126;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+}
+.slogan-info_media a:last-child img{
+    padding-right: 12px;
+}
+.header-slogan_img{
+    background-image: url(../img/big\ logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 670px;
+    height: 801px;
+    left: 690px;
+    top: 114px;
+    float: right;
+    margin-left: 170px;
+}
+/* Мэйн  */
+.main-aboutus{
+    margin-top: 330px;
+    display: flex;
+}
+.about-us_text{
+    padding-left: 100px;
+}
+.about-us_text p:first-child{
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: #49B3FB;
+    padding-top: 15px;
+}
+.about-us_text h2{
+    font-size: 56px;
+    font-weight: 600;
+    color: #031126;
+    font-family: 'Poppins';
+    line-height: 135%;
+    padding-top: 27px;
+}
+.about-us_descr{
+    padding-top: 20px;
+    color: #031126;
+    opacity: 0.7;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%
+}
+.about-us_icons_first img{
+    background-color: #49B3FB;
+    padding: 21px;
+    border: 1px solid #49B3FB;
+    border-radius: 15px;
+
+    box-shadow: 0px 89px 80px rgba(73, 179, 251, 0.16), 0px 32.4865px 29.2013px rgba(73, 179, 251, 0.110397), 0px 15.7716px 14.1767px rgba(73, 179, 251, 0.0890065), 0px 7.73152px 6.94968px rgba(73, 179, 251, 0.0709935), 0px 3.05705px 2.74791px rgba(73, 179, 251, 0.0496029);
+}
+.about-us_icons_second img{
+    border: 2px solid #49B3FB;
+    background-color: white;
+    padding: 21px;
+    border-radius: 15px;
+
+    box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.15);
+}
+.about-us_icons_first , .about-us_icons_second{
+    display: flex;
+    padding-top: 39px;
+}
+.about-us_icons_text{
+    padding-left: 42px;
+}
+.about-us_icons_text h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #031126;
+    font-family: 'Poppins';
+}
+.about-us_icons_text p{
+    font-size: 14px;
+    color: #031126;
+    opacity: 0.7;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+/* Карточки с опис. сервиса */
+
+.dental-service-cards{
+    padding-top: 130px;
+}
+.dental-service-cards h2{
+    font-size: 56px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #031126;
+    text-align: center;
+}
+.dental-service-cards_descr{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #031126;
+    opacity: 0.75;
+    text-align: center;
+    padding-top: 30px;
+}
+.serv-cards h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    color: #031126;
+    padding-top: 32px;
+}
+.serv-cards p{
+    font-size: 18px;
+    color: #031126;
+    opacity: 0.75;
+    font-family: 'Poppins';
+    padding-top: 32px;
+    padding-bottom: 26px;
+}
+.dent-cards_group{
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+}
+.serv-cards{
+    background: #C9E9FF33;
+    padding: 56px 40px;
+    margin-left: 30px;
+}
+.serv-cards a{
+    color: #031126;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+.serv-cards i{
+    margin-left: 11px;
+}
