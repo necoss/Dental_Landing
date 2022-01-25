@@ -258,3 +258,62 @@
 .serv-cards i{
     margin-left: 11px;
 }
+/* doctor cards */
+.prof-team{
+    margin-top: 130px;
+}
+.prof-team p:first-child{
+    color: #49B3FB;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.prof-team_descr{
+    display: flex;
+}
+.prof-team_descr img{
+    margin-left: 46px;
+    margin: 30px 46px
+}
+.prof-team_text h2{
+    color: #031126;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    padding-top: 38px;
+}
+.prof-team_text p{
+    color: #031126;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.75;
+    line-height: 170%;
+    padding-top: 20px;
+
+}
+.prof-team_cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+.prof-team_descr-text h3{
+    color: #031126;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    padding-top: 30px;
+}
+.prof-team_descr-text p{
+    color: #031126;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    opacity: 0.65;
+    padding-top: 5px;
+}
+.prof-team_doccards{
+    box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.08);
+}
