@@ -247,6 +247,10 @@
     background: #C9E9FF33;
     padding: 56px 40px;
     margin-left: 30px;
+    transition: 0.3s ease-in-out;
+}
+.serv-cards:hover{
+    transform: scale(1.1);
 }
 .serv-cards a{
     color: #031126;
@@ -317,6 +321,10 @@
 }
 .prof-team_doccards{
     box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.08);
+    transition: 0.3s ease-in-out;
+}
+.prof-team_doccards:hover{
+    transform: scale(1.1);
 }
 
 /* statistic block */
@@ -393,4 +401,175 @@
 .advices__steps img{
     margin-top: 15px;
     margin-right: 20px;
+}
+
+/* appointment */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.appointment{
+    margin-top: 150px;
+    padding-top: 140px;
+    background-color: rgba(201, 233, 255, 0.15);
+}
+.appointment__title h3{
+    color: #031126;
+    font-weight: 600;
+    font-size: 56px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.appointment__title p{
+    color: #031126;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.75;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 30px;
+}
+.appointment__form h3{
+    color: #031126;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Poppins';
+    padding-top: 54px;
+    padding-bottom: 26px;
+}
+.form__name{
+    width: 270px;
+    height: 60px;
+    font-family:'Poppins';
+    font-size: 13px;
+    padding-left: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 2px solid rgba(3, 17, 38, 0.45);
+    background-color: transparent;
+    color: rgba(3, 17, 38, 0.45);
+
+    margin-right: 23px;
+}
+.form__name::-webkit-input-placeholder, .form__gender::-webkit-input-placeholder, .form__number::-webkit-input-placeholder, .form__email::-webkit-input-placeholder, .form__department::-webkit-input-placeholder, .form__date::-webkit-input-placeholder, .form__details-text::-webkit-input-placeholder{
+    color: rgba(3, 17, 38, 0.45);
+}
+.form__name:focus, .form__gender:focus, .form__number:focus, .form__email:focus, .form__department:focus, .form__date:focus, .form__details-text:focus
+{
+    color: #031126;
+    border: 2px solid #031126   ;
+}
+.form__gender{
+    cursor: pointer;
+    width: 270px;
+    height: 60px;
+    font-family:'Poppins';
+    font-size: 13px;
+    padding-left: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 2px solid rgba(3, 17, 38, 0.45);
+    background-color: transparent;
+    color: rgba(3, 17, 38, 0.45);
+    appearance: none;
+    overflow: hidden;
+    background: url('../img/arrow-down.png') no-repeat right;
+}
+.form__number{
+    width: 270px;
+    height: 60px;
+    font-family:'Poppins';
+    font-size: 13px;
+    padding-left: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 2px solid rgba(3, 17, 38, 0.45);
+    background-color: transparent;
+    color: rgba(3, 17, 38, 0.45);
+
+    margin-right: 23px;
+    margin-top: 25px;
+}
+.form__email{
+    width: 270px;
+    height: 60px;
+    font-family:'Poppins';
+    font-size: 13px;
+    padding-left: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 2px solid rgba(3, 17, 38, 0.45);
+    background-color: transparent;
+    color: rgba(3, 17, 38, 0.45);
+    margin-top: 25px;
+}
+.form__department{
+    cursor: pointer;
+    width: 270px;
+    height: 60px;
+    font-family:'Poppins';
+    font-size: 13px;
+    padding-left: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 2px solid rgba(3, 17, 38, 0.45);
+    background-color: transparent;
+    color: rgba(3, 17, 38, 0.45);
+    appearance: none;
+    overflow: hidden;
+    background: url('../img/arrow-down.png') no-repeat right;
+    margin-right: 23px;
+    margin-top: 25px;
+}
+.form__date{
+    width: 270px;
+    height: 60px;
+    font-family:'Poppins';
+    font-size: 13px;
+    padding-left: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 2px solid rgba(3, 17, 38, 0.45);
+    background-color: transparent;
+    color: rgba(3, 17, 38, 0.45);
+    margin-top: 25px;    
+}
+.form__details-text{
+    width: 567px;
+    height: 137px;
+    font-family:'Poppins';
+    font-size: 13px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 2px solid rgba(3, 17, 38, 0.45);
+    background-color: transparent;
+    color: rgba(3, 17, 38, 0.45);
+    margin-top: 25px; 
+}
+.appointmet__poll{
+    display: flex;
+    justify-content: space-between;
+}
+.appointment__pic{
+    padding-top: 90px;
+}
+.form__button{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    font-family:'Poppins';
+    color: white;
+    background-color:#0098FF;
+    padding: 20px 40px;
+    border-radius: 14px;
+    margin-top: 30px;
+    border: 2px solid #0098FF;
+    transition: 0.3s ease-in-out;
+}
+.form__button:hover{
+    color: #0098FF;
+    background-color: white;
+    border: 2px solid #0098FF;
 }
