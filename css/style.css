@@ -271,10 +271,11 @@
 }
 .prof-team_descr{
     display: flex;
+    padding-bottom: 10px;
 }
 .prof-team_descr img{
     margin-left: 46px;
-    margin: 30px 46px
+    margin: 46px 46px
 }
 .prof-team_text h2{
     color: #031126;
@@ -316,4 +317,80 @@
 }
 .prof-team_doccards{
     box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.08);
+}
+
+/* statistic block */
+
+.statistic{
+    margin-top: 100px;
+    padding: 109px 0;
+    background-color: rgba(201, 233, 255, 0.15);
+}
+.statistic__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistic__text h3{
+    color: #031126;
+    font-weight: 600;
+    font-size: 56px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.statistic__text p{
+    color: #031126;
+    opacity: 0.75;
+    font-size: 18px;
+    font-family: 'Poppins';
+    padding-top: 15px;
+}
+
+
+/* advices block */
+
+.advices{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.advices__info h3{
+    color: #031126;
+    font-weight: 600;
+    font-size: 56px;
+    font-family: 'Poppins';
+}
+#advices__p{
+    color: #031126;
+    opacity: 0.65;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 23px;
+    padding-bottom: 54px;
+}
+.advices__steps{
+    padding-top: 38px;
+    display: flex;
+}
+.advices__steps:first-of-type{ /* если элемент не первый, то используем такой псд. */
+    padding-top: 0;
+}
+.advices__step-text h4{
+    color: #031126;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.9;
+    font-family: 'Poppins';
+}
+.advices__step-text p{
+    color: #031126;
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 0.65;
+    font-family: 'Poppins';
+}
+.advices__steps img{
+    margin-top: 15px;
+    margin-right: 20px;
 }
