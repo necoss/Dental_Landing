@@ -573,3 +573,87 @@ input::-webkit-inner-spin-button {
     background-color: white;
     border: 2px solid #0098FF;
 }
+footer{
+    padding-top: 130px;
+}
+.mail__subscr{
+    background-color: #0098FF;
+    border-radius: 50px;
+    height: 331px;
+}
+.mail__text{
+    padding-top: 60px;
+}
+.mail__text h3{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Poppins';
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.mail__text p{
+    color: white;
+    font-size: 18px;
+    line-height: 170%;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Poppins';
+}
+
+.mail__form{
+    display: flex;
+    align-items: center;
+    width: 560px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 15px;
+    font-family:'Poppins';
+    font-size: 13px;
+    background-clip: padding-box;
+    margin-left: 321px;
+
+}
+.mail__input::-webkit-input-placeholder{
+    color: rgba(3, 17, 38, 0,3);
+}
+.mail__input:focus{
+    color: #031126;
+    border: 1px solid white;
+
+}
+.mail__input{
+    border: 1px solid white;
+    font-family:'Poppins';
+    padding-left: 30px;
+    width: 394px;
+    outline: none;
+}
+.mail__form button{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    font-family:'Poppins';
+    color: white;
+    background-color:#0098FF;
+    padding: 11px 34px;
+    border-radius: 14px;
+    border: 2px solid #0098FF;
+    transition: 0.3s ease-in-out;
+}
+.mail__form button:hover{
+    color: #0098FF;
+    background-color: white;
+    border: 2px solid #0098FF;
+}
+.copyrite{
+    padding-top: 40px;
+}
+.copyrite p{
+    text-align: center;
+    color: #031126;
+    opacity: 0.6;
+    font-size: 17px; 
+    font-family:'Poppins';
+}
