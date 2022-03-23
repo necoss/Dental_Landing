@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Release]
 This is the final version of this site. Maybe i'll add an adaptive soon.
-## [1.0.0] - 2020-01-05
+## [1.0.0] - 2022-01-05
 ### Added:
 - New block with form.
 - Fixed some bugs.
